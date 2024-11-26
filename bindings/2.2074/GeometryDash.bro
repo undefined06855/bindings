@@ -14922,7 +14922,7 @@ class PlayerObject : GameObject, AnimatedSpriteDelegate {
     void updateCollideTop(float, GameObject*);
     void updateDashAnimation() = m1 0x370a18, imac 0x3efb90;
     void updateDashArt() = win 0x380390;
-    void updateEffects(float param) = win inline, imac 0x3f0ff0 {
+    void updateEffects(float param) = win inline, imac 0x3f0ff0, m1 0x9999999 {
         m_waveTrail->updateStroke(param);
     }
     void updateGlowColor() = win 0x3876a0, imac 0x4088a0, m1 0x386264;

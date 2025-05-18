@@ -3382,6 +3382,8 @@ class cocos2d::CCApplication : cocos2d::CCApplicationProtocol {
     virtual cocos2d::ccLanguageType getCurrentLanguage() = m1 0x2ab20c, imac 0x314ff0, ios 0x1af448;
     virtual cocos2d::TargetPlatform getTargetPlatform() = m1 0x2ab1f8, imac 0x314fd0, ios 0x1af60c;
     virtual void openURL(char const*) = imac 0x315dc0, m1 0x2aba20, ios 0x1af380;
+
+    void updateControllerKeys() = win 0x732f0;
 }
 
 [[link(win, android)]]
